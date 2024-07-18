@@ -35,7 +35,7 @@ LANGUAGE ~Deutsch (Teiluebersetzung vom Kerzenburgforum, teilweise noch in engli
 LANGUAGE ~Russian (by Aerie Team & Arcanecoast Team)~ ~russian~ ~bg1npc/tra/english/setup.tra~ 
 LANGUAGE ~Italian (by Coland)~ ~italian~ ~bg1npc/tra/italian/setup.tra~ 
 LANGUAGE ~Simplified Chinese~ ~schinese~ ~bg1npc/tra/english/setup.tra~
-                                         ~bg1npc/tra/schinese/setup-%WEIDU_OS%.tra~
+                                         ~bg1npc/tra/schinese/install.tra~
 
 /* BEGIN The BG1 NPC Project: Required Modifications  */
 BEGIN @1005 DESIGNATED 0
