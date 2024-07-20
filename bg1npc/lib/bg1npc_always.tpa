@@ -26,19 +26,16 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 	ACTION_IF GAME_IS ~eet~ THEN BEGIN
 		INCLUDE  ~EET/other/cpmvars/eet_cpmvars.tpa~
 
-	/* EET-SoD: PID should not block SoD dialogues. --- This is a hack and only valid because BG1NPC only adds to BG1! */
-	OUTER_SPRINT ~BGT_VAR~ ~!GlobalGT("BD_PLOT","GLOBAL",0)~
-
+		/* EET-SoD: PID should not block SoD dialogues. --- This is a hack and only valid because BG1NPC only adds to BG1! */
+		OUTER_SPRINT ~BGT_VAR~ ~!GlobalGT("BD_PLOT","GLOBAL",0)~
 	END
-
 
 	// BG:EE tra conversion
 	// Code borrowed from Edwin Romance and adjusted: HANDLE_CHARSETS in now included in WeiDU 237
 	// For complete description check Edwin Romance and the WeiDU forum topic on HANDLE_CHARSETS
 
-	// Only setup.tra is stated in LANGUAGE and needs to be reloaded after conversion
-	ACTION_DEFINE_ARRAY x#reload BEGIN setup END
-	ACTION_DEFINE_ARRAY x#noconvert BEGIN install END
+	ACTION_DEFINE_ARRAY x#reload BEGIN END
+	ACTION_DEFINE_ARRAY x#noconvert BEGIN setup END
 
 	LAF HANDLE_CHARSETS
 		INT_VAR
@@ -59,10 +56,10 @@ END ELSE BEGIN /* Actions for Tutu or BGT */
 		APPEND ~GTIMES.IDS~  ~12 TWO_ROUNDS~    UNLESS ~TWO_ROUNDS~
 
 	END ELSE BEGIN
-	/* BGT */
+		/* BGT */
     	ACTION_IF GAME_IS ~bgt~ THEN BEGIN
-		PRINT @1001
-		INCLUDE ~bg1npc/lib/g3_bgt_cpmvars.tpa~
+			PRINT @1001
+			INCLUDE ~bg1npc/lib/g3_bgt_cpmvars.tpa~
     	END ELSE BEGIN 
     		/* Not a supported game */
     		FAIL @1002
