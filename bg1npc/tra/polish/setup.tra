@@ -44,12 +44,12 @@
 @1043 = ~Wartkosc akcji watku romansu z Xanem (30 minut)~
 @1044 = ~Wartkosc akcji watku romansu z Xanem (15 minut)~
 @1045 = ~Wartkosc akcji watku romansu z Xanem (spowolniona: 1,5 godziny)~
-@1046 = ~Wartkosc akcji watku stosunków z Shar-Teel (normalna: 1 godzina)~
+@1046 = ~Wartkosc akcji watku stosunkow z Shar-Teel (normalna: 1 godzina)~
 @1047 = ~Watek stosunkow z Shar-Teel nie zostal zainstalowany.~
-@1048 = ~Wartkosc akcji watku stosunków z Shar-Teel (45 minut)~
-@1049 = ~Wartkosc akcji watku stosunków z Shar-Teel (30 minut)~
-@1050 = ~Wartkosc akcji watku stosunków z Shar-Teel (15 minut)~
-@1051 = ~Wartkosc akcji watku stosunków z Shar-Teel (spowolniona: 1,5 godziny)~
+@1048 = ~Wartkosc akcji watku stosunkow z Shar-Teel (45 minut)~
+@1049 = ~Wartkosc akcji watku stosunkow z Shar-Teel (30 minut)~
+@1050 = ~Wartkosc akcji watku stosunkow z Shar-Teel (15 minut)~
+@1051 = ~Wartkosc akcji watku stosunkow z Shar-Teel (spowolniona: 1,5 godziny)~
 @1052 = ~Wartkosc akcji watku romansu z Branwen (normalna: 1 godzina)~
 @1053 = ~Watek romansu z Branwen nie zostal zainstalowany.~
 @1054 = ~Wartkosc akcji watku romansu z Branwen (45 minut)~
@@ -99,7 +99,7 @@
 @1099 = ~Watek romansu [Branwen]~
 @1100 = ~Watek romansu [Ajantis]~
 @1101 = ~Istote tego komponentu zawarto (lub zastapiono) w jednej z wczesniej zainstalowanych modyfikacji.~
-@1102 = ~Proszê wybrac jedno z ponizszych:
+@1102 = ~Prosze wybrac jedno z ponizszych:
 [1] Uplyw przynajmniej 1 godziny czasu rzeczywistego (wartosc normalna) pomiedzy kolejnymi rozmowami
 [2] Uplyw przynajmniej 45 minut czasu rzeczywistego pomiedzy kolejnymi rozmowami
 [3] Uplyw przynajmniej 30 minut czasu rzeczywistego pomiedzy kolejnymi rozmowami
@@ -107,10 +107,10 @@
 [5] Uplyw przynajmniej 1,5 godziny czasu rzeczywistego (wartosc spowolniona) pomiedzy kolejnymi rozmowami~
 @1103 = ~Wybierz wartkosc akcji watku romansu z Coranem:~
 @1104 = ~Wybierz wartkosc akcji watku romansu z Dynaheir:~
-@1105 = ~Wybierz wartkosc akcji watku stosunków z Shar-Teel:~
+@1105 = ~Wybierz wartkosc akcji watku stosunkow z Shar-Teel:~
 @1106 = ~Wybierz wartkosc akcji watku romansu z Branwen:~
 @1107 = ~Wybierz wartkosc akcji watku romansu z Xanem:~
-@1108 = ~Proszê wybierz 1, 2, 3, 4 lub 5, a nastepnie nacisnij Enter.~
+@1108 = ~Prosze wybierz 1, 2, 3, 4 lub 5, a nastepnie nacisnij Enter.~
 @1109 = ~Wartkosc akcji: przynajmniej 1 godzina czasu rzeczywistego (wartosc normalna) pomiedzy kolejnymi rozmowami~
 @1110 = ~Wartkosc akcji: przynajmniej 45 minut czasu rzeczywistego pomiedzy kolejnymi rozmowami~
 @1111 = ~Wartkosc akcji: przynajmniej 30 minut czasu rzeczywistego pomiedzy kolejnymi rozmowami~
