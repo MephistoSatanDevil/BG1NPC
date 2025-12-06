@@ -129,6 +129,32 @@ This component will allow Xan to romance a female PC. As of this version, you mu
 ### The BG1NPC Project: Female Romance Challenges, Ajantis vs. Xan vs. Coran
 This component expands the romance options and content for female characters being courted by Coran, Ajantis, and/or Xan. It only appears for female characters who have two or three of these NPCs in their party.
 
+### The BG1NPC Project: NPCs Can Be Sent to Wait in an Inn
+_Note: not compatible with BGT. After being removed for v24, the component was restored for v29. It was not yet thoroughly tested for the EE v2.6 (BG:EE, BG:SoD, EET) and is in beta status._
+This component allows BG NPCs to be sent to an Inn, another location, or to wait for you when you dismiss them from the party. This component is most likely not compatible with other mods that will make NPCs go to or wait at specific places, e.g. "BG NPCs go to inns" from Tweaks Anthology. Do not install mod components that conflict. In the BG1NPC version, slightly different waiting places are used, and NPCs will highly dislike being abandoned alone in dangerous areas...
+NPC waiting locations:
+
+    Ajantis - Friendly Arm Inn or Elfsong Tavern
+    Alora - Friendly Arm Inn or Elfsong Tavern
+    Branwen - Friendly Arm Inn or Elfsong Tavern
+    Coran - Belching Dragon in Nashkel or Elfsong Tavern
+    Dynaheir/Minsc - Friendly Arm Inn or Elfsong Tavern
+    Edwin - Belching Dragon in Nashkel or Low Lantern
+    Eldoth/Skie - Feldpost's Inn or Elfsong Tavern
+    Faldorn - Cloakwood (what, you think she'd wait in an inn?)
+    Garrick - Friendly Arm Inn or Elfsong Tavern
+    Imoen - Friendly Arm Inn or Elfsong Tavern
+    Jaheria/Khalid - Friendly Arm Inn or Elfsong Tavern
+    Kagain - His store or Blusing Mermaid
+    Kivan - Friendly Arm Inn or Elfsong Tavern
+    Montaron/Xzar - Belching Dragon in Nashkel or Low Lantern
+    Quayle - Friendly Arm Inn or Elfsong Tavern
+    Safana - Belching Dragon in Nashkel or Elfsong Tavern
+    Shar-Teel - Belching Dragon in Nashkel or Blushing Mermaid
+    Viconia - A cave on the South Beregost Road or Blushing Mermaid
+    Xan - Friendly Arm Inn or Elfsong Tavern
+    Yeslick - Friendly Arm Inn or Elfsong Tavern 
+
 ### Jason Compton's Accelerated Banter Script
 _Tutu, BGT Only_
 This component installs Jason Compton's Accelerated Banter Script, which basically makes banters happen more often. It is the same one as included with mods such as the Banter Packs for BG2, so if you have installed it there you don't need it again. Don't worry, the installer will tell you if you already have it installed.
