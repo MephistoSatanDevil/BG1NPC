@@ -13,7 +13,7 @@ SetGlobal("FREESLAV","GLOBAL",1)
 EscapeArea()~ EXIT
 
 APPEND ~%tutu_var%GERVIS~
-IF WEIGHT #-1 ~%BGT_VAR% Global("X#VoltineAdd","GLOBAL",1)~ THEN BEGIN X#GrevisAdd
+IF WEIGHT #0 ~%BGT_VAR% Global("X#VoltineAdd","GLOBAL",1)~ THEN BEGIN X#GrevisAdd
 SAY @4
 ++ @5 DO ~SetGlobal("X#VoltineAdd","GLOBAL",2)~ EXIT
 ++ @6 DO ~SetGlobal("X#VoltineAdd","GLOBAL",2)~ + VORE1.1
